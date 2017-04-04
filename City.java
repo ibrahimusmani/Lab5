@@ -14,7 +14,7 @@ public class City {
     private String country;
     private String region;
     private String city;
-    private int postalCode;
+    private String postalCode;
     private float latitude;
     private float longitude;
     private int metroCode;
@@ -36,7 +36,7 @@ public class City {
         return city;
     }
 
-    public int getPostalCode() {
+    public String getPostalCode() {
         return postalCode;
     }
 
@@ -72,7 +72,7 @@ public class City {
         this.city = city;
     }
 
-    public void setPostalCode(int postalCode) {
+    public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
 

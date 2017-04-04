@@ -9,7 +9,7 @@
          <generator class="assigned"></generator>  
         </id>  
                 
-        <property name="locId"></property>  
+        <!--<property name="locId"></property>-->  
         <property name="country"></property> 
         <property name="region"></property>  
         <property name="city"></property> 
